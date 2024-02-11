@@ -665,9 +665,18 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-t {
+  border-top-width: 1px;
+}
+
 .border-b-\[\#E3DDD7\] {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(227 221 215 / var(--tw-border-opacity));
+}
+
+.border-t-\[\#E3DDD7\] {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(227 221 215 / var(--tw-border-opacity));
 }
 
 .bg-eggshell {
@@ -680,6 +689,15 @@ video {
 
 .bg-white {
   background-color: rgba(255, 255, 255, 1);
+}
+
+.bg-\[\#E3DDD7\;\] {
+  background-color: #E3DDD7;;
+}
+
+.bg-\[\#E3DDD7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 221 215 / var(--tw-bg-opacity));
 }
 
 .p-3 {
@@ -819,16 +837,12 @@ video {
     margin-right: 0px;
   }
 
-  .sm\:mb-2 {
-    margin-bottom: 0.5rem;
+  .sm\:mb-\[123px\] {
+    margin-bottom: 123px;
   }
 
   .sm\:mt-\[123px\] {
     margin-top: 123px;
-  }
-
-  .sm\:mb-\[123px\] {
-    margin-bottom: 123px;
   }
 
   .sm\:rounded-xl {
