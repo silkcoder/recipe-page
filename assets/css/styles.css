@@ -595,10 +595,6 @@ video {
   margin-top: 1.5rem;
 }
 
-.mt-\[123px\] {
-  margin-top: 123px;
-}
-
 .block {
   display: block;
 }
@@ -829,6 +825,10 @@ video {
 
   .sm\:mt-\[123px\] {
     margin-top: 123px;
+  }
+
+  .sm\:mb-\[123px\] {
+    margin-bottom: 123px;
   }
 
   .sm\:rounded-xl {
